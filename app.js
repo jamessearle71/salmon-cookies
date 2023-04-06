@@ -88,7 +88,7 @@ const dubai = {
   name: "Dubai",
   minCust: 11,
   maxCust: 38,
-  avgCookiePerSale: 2.3,
+  avgCookiePerSale: 3.7,
   salesPerHour: [],
   totalsales: 0,
   salesPerHourFunc: function () {
