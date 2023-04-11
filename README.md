@@ -1,1 +1,3 @@
 # salmon-cookies
+
+[Lighthouse]()
