@@ -18,6 +18,26 @@
     </header>
     <main>
       <table id="sales-table"></table>
+      <form id="new-store-form">
+        <fieldset>
+          <legend>Enter a new cookie store</legend>
+          <label for="name-input">Store name:</label>
+          <input type="text" id="name-input" name="name" />
+
+          <label for="min-cust-input">Min customers per hour:</label>
+          <input type="text" id="min-cust-input" name="minCust" />
+
+          <label for="max-cust-input">Max customers per hour:</label>
+          <input type="text" id="max-cust-input" name="maxCust" />
+
+          <label for="average-cookies-input">Average cookies sold:</label>
+          <input type="text" id="average-cookies-input" name="avgCookies" />
+
+          <button id="submit-button" type="submit">SUBMIT</button>
+          <button type="reset">RESET</button>
+        </fieldset>
+      </form>
+    </main>
     <footer>
       <div class="footer-container container">
         <p>&#169; Salmon Cookies</p>
